@@ -1,5 +1,8 @@
 
-
+html {
+	font-size: 16px;
+	font-family: sans-serif, serif;
+}
 
 img {
 	display: block;
@@ -7,6 +10,64 @@ img {
 	margin: 0 auto;
 }
 
+#img-caption {
+	text-align: center;
+}
+
+
+#img-div{
+	border: 5px solid yellow;
+}
+
 strong {
+	font-weight: bold;
+}
+
+/*Hero area*/
+
+h1 {
+	text-align: center;
+}
+
+
+h1~p {
+	text-align: center;
+}
+
+body {
+	border: 5px solid black;
+}
+
+#tribute-info {
+	border: 5px solid green;
+	width: 40%;
+	min-width: 600px;
+	margin: 0 auto;
+
+}
+
+#tribute-info h4 {
+	text-align: center;
+}
+
+ul {
+	margin: 0;
+	margin-bottom: 100px
+
+}
+
+ul li{
+	margin: 20px 0;
+	line-height: 1.5rem;
+}
+
+
+blockquote p {
+	font-style: oblique;
+}
+
+footer p {
+	border: 5px solid brown;
+	text-align: center;
 	font-weight: bold;
 }
