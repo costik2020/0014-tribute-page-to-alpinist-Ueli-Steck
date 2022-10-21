@@ -115,7 +115,12 @@ ul li{
 	text-align: center;
 }
 
+blockquote {
+		margin-top: 5rem;
+}
+
 blockquote p {
+
 	font-style: oblique;
 }
 
@@ -130,6 +135,12 @@ footer p {
 footer p a {
 	color: #281413;
 }
+
+
+
+
+/*Snow effect*/
+
 
 
 
