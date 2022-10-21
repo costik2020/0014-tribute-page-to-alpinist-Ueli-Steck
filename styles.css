@@ -8,7 +8,6 @@ html {
 
 /*Snow effect*/
 
-
 .snow_wrap {
 	/*border: 10px black solid;*/
 	width: 100%;
@@ -91,19 +90,24 @@ snow:after,
 
 
 
+
+
 /*/////////////////////////////////////////////////////////////*/
+
 
 
 /*Fix the backgronund to viewport*/
 .background {
+
   /*border: 10px black solid;*/
-  background-image: url(pictures/background-mountains.jpg);
+	/*background-image: url(pictures/background-mountains.jpg);*/
+  background-image: url("pictures/background-mountains.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 100%;
+  /*height: 100%;*/
   margin: 0;
 }
 
@@ -111,19 +115,24 @@ snow:after,
   /*border: 10px black solid;*/
   background: rgba(255, 255, 255, 0.2);
   width: 100%;
-  height: 100%;
+  /*height: 100%;*/
 }
 
 .filter-strong {
   /*border: 10px black solid;*/
   background: rgba(255, 255, 255, 0.6);
   width: 100%;
-  height: 100%;
+  /*height: 100%;*/
 }
 
+
+
 main {
+	/*border: 5px solid green;*/
 	margin-top: -100vh;
 }
+
+
 
 img {
 	display: block;
@@ -173,6 +182,7 @@ h1~p {
 
 
 
+
 #tribute-info {
 	/*border: 5px solid green;*/
 	width: 600px;
@@ -188,6 +198,7 @@ h1~p {
 }
 
 ul {
+
 	margin: 0;
 	padding-right: 1rem;
 	margin-top: 40px;
@@ -218,6 +229,7 @@ blockquote p {
 }
 
 footer p {
+
 	/*border: 5px solid brown;*/
 	text-align: center;
 	font-weight: bold;
@@ -231,8 +243,6 @@ footer p a {
 
 
 
-
-/*Snow effect*/
 
 
 
@@ -275,4 +285,10 @@ footer p a {
 	#tribute-info ul {
 		padding-right: 2rem;
 	}
+
+
+
+
 }
+
+
