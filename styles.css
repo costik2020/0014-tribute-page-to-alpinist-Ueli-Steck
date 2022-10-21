@@ -47,7 +47,7 @@ img {
 
 
 #img-div{
-	border: 5px solid yellow;
+	/*border: 5px solid yellow;*/
 	width: 100%;
 	margin: 0;
 	margin-bottom: 3rem;
@@ -63,6 +63,8 @@ h1 {
 	text-align: center;
 	font-size: 3rem;
 	margin-bottom: 1rem;
+	margin-top: 0;
+	padding-top: 2rem;
 }
 
 
@@ -73,12 +75,10 @@ h1~p {
 	margin-bottom: 2rem;
 }
 
-body {
-	border: 5px solid black;
-}
+
 
 #tribute-info {
-	border: 5px solid green;
+	/*border: 5px solid green;*/
 	width: 40%;
 	min-width: 600px;
 	margin: 0 auto;
@@ -111,9 +111,11 @@ blockquote p {
 }
 
 footer p {
-	border: 5px solid brown;
+	/*border: 5px solid brown;*/
 	text-align: center;
 	font-weight: bold;
+	margin-bottom: 0;
+	padding-bottom: 4rem;
 }
 
 footer p a {
