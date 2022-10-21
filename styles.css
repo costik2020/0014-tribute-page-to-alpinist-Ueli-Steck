@@ -145,7 +145,8 @@ img {
 }
 
 #img-div img {
-	max-width: 100%;
+	/*max-width: 100%;*/
+	width: 50%;
 }
 
 strong {
@@ -178,6 +179,7 @@ h1~p {
 	/*min-width: 600px;*/
 	margin: 0 auto;
 	padding-bottom: 1rem;
+	padding-top: 1rem;
 
 }
 
@@ -239,10 +241,19 @@ footer p a {
 
 @media all and (max-width: 600px){
 
+	#img-div img {
+		/*max-width: 100%;*/
+		width: 100%;
+	}
+
+
+
 	#tribute-info {
 
 		/*border: 5px solid brown;*/
 		padding: 0;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
 		margin: 0 auto;
 		width: 90vw;
 	}
