@@ -15,6 +15,11 @@ html {
 	position: sticky;
 	top: 0px;
 	z-index: 1;
+	/*The `pointer-events` property makes a transparent div unclickable,
+	therefore I can click on any text beneth (under) the transparent div.
+	Withouth this property I was not able to click on the text
+	or highlight the text with my mouse cursor*/
+	pointer-events: none;
 	/*background: black;*/
 
 
@@ -25,6 +30,7 @@ html {
 .snow,
 snow:after,
 .snow:before {
+
 	content="";
 	position: absolute;
 	top: -650px;
